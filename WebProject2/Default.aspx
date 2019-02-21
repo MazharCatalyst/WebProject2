@@ -8,9 +8,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>Hi
+        <div>
+            Hi
         </div>
-        <div><asp:Label ID="lblhello" runat="server"></asp:Label> </div>
+        <div>
+            <asp:Label ID="lblhello" runat="server"></asp:Label>
+            <asp:TextBox ID="txthello" runat="server"></asp:TextBox>
+        </div>
     </form>
 </body>
 </html>

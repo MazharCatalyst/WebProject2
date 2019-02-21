@@ -30,4 +30,13 @@ Partial Public Class _Default
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents lblhello As Global.System.Web.UI.WebControls.Label
+    
+    '''<summary>
+    '''txthello control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents txthello As Global.System.Web.UI.WebControls.TextBox
 End Class
