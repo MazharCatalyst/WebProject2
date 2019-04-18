@@ -5,4 +5,7 @@
         lblhello.Text = "Hello world"
     End Sub
 
+    Private Sub btnLabel_Click(sender As Object, e As EventArgs) Handles btnLabel.Click
+        lblhello.Text = txthello.Text
+    End Sub
 End Class

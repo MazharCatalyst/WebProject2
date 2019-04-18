@@ -8,12 +8,11 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            Hi
-        </div>
+        
         <div>
             <asp:Label ID="lblhello" runat="server"></asp:Label>
             <asp:TextBox ID="txthello" runat="server"></asp:TextBox>
+            <asp:Button ID="btnLabel" runat="server" Text="Submit" />
         </div>
     </form>
 </body>
