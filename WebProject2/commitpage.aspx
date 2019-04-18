@@ -10,6 +10,8 @@
     <form id="form1" runat="server">
         <div>This is commit page
         </div>
+        <div>This is for second commit
+        </div>
     </form>
 </body>
 </html>
