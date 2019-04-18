@@ -92,11 +92,19 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="commitpage.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="TestPage1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="commitpage.aspx.designer.vb">
+      <DependentUpon>commitpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="commitpage.aspx.vb">
+      <DependentUpon>commitpage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Default.aspx.designer.vb">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
