@@ -14,6 +14,10 @@
         </div>
         <div>This is for Third commit
         </div>
+        <div><asp:label runat="server" text="Hello" ID="lblText"></asp:label></div>
+        <div><asp:Button ID="Button1" runat="server" Text="Change Text" /></div>
     </form>
+    
 </body>
 </html>
+
